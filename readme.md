@@ -19,4 +19,6 @@
 
 如何想要不看代码，直接测试也可以，只用拷贝fast_mint下的文件，只要填写1.json和2.json的私钥就可以了。
 
+如果喜欢可以给我点个follow
+
 该代码来源于https://github.com/Kriptikz，如有侵权，请联系我，立马删除
