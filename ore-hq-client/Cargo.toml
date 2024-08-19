@@ -1,0 +1,26 @@
+[package]
+name = "ore-hq-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+clap = { version = "4.5.13", features = ["derive"] }
+core_affinity = "0.8.1"
+drillx = "2.0.0"
+futures-util = "0.3.30"
+rpassword = "7.3.1"
+solana-sdk = "1.18.12"
+tokio = { version = "1.39.2", features = ["full"] }
+tokio-tungstenite = { version = "0.23.1", features = ["native-tls"] }
+url = "2.5.2"
+
+[profile.release]
+opt-level = 3
+panic = "abort"
+codegen-units = 1
+lto = true
+debug = false
+strip = true
+debug-assertions = false 
+overflow-checks = false

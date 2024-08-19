@@ -1,0 +1,1 @@
+.\ore-hq-client.exe --url ws://127.0.0.1:3000 --keypair 2.json --threads 20
